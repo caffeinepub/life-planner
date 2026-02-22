@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "A website for young people to plan, manage, and improve their studies, work, habits, and goals in one simple place",
+  "architectural_notes": [
+    "Target audience: young people",
+    "Platform: web-based",
+    "Core focus: unified dashboard for life management (studies, work, habits, goals)",
+    "Design priority: simplicity and ease of use"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-build-a-frontend-dashboard-that-displays-an-overview-of-all-studies-work-items-habits-and-goals-with-quick-access-to-each-section",
+      "title": "Build a frontend dashboard that displays an overview of all studies, work items, habits, and goals with quick access to each section",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-frontend-studies-management-interface-with-forms-to-add-edit-and-delete-study-entries-and-display-them-in-an-organized-list-or-grid",
+      "title": "Build a frontend studies management interface with forms to add, edit, and delete study entries, and display them in an organized list or grid",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-frontend-work-management-interface-with-forms-to-add-edit-and-delete-work-items-and-display-them-sorted-by-deadline-or-priority",
+      "title": "Build a frontend work management interface with forms to add, edit, and delete work items, and display them sorted by deadline or priority",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-frontend-habits-tracking-interface-that-allows-users-to-add-habits-mark-daily-completions-and-view-progress-streaks-and-completion-history",
+      "title": "Build a frontend habits tracking interface that allows users to add habits, mark daily completions, and view progress streaks and completion history",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-frontend-goals-management-interface-with-forms-to-create-goals-with-milestones-track-progress-and-mark-milestones-as-completed",
+      "title": "Build a frontend goals management interface with forms to create goals with milestones, track progress, and mark milestones as completed",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-integrate-internet-identity-authentication-so-each-user-has-a-private-workspace-for-their-studies-work-habits-and-goals",
+      "title": "Integrate Internet Identity authentication so each user has a private workspace for their studies, work, habits, and goals",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-cohesive-visual-theme-for-the-platform-with-warm-energetic-colors-clean-typography-and-an-encouraging-atmosphere-that-motivates-young-users-to-stay-organized-and-productive",
+      "title": "Design a cohesive visual theme for the platform with warm, energetic colors, clean typography, and an encouraging atmosphere that motivates young users to stay organized and productive",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-hero-banner-image-and-section-icons-as-static-assets-in-frontend-public-assets-generated",
+      "title": "Render generated hero banner image and section icons as static assets in frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-website-title-in-frontend-index-html-from-life-planner-to-momentum",
+      "title": "Update the website title in frontend/index.html from 'Life Planner' to 'MOMENTUM'",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-logo-text-in-the-layout-component-header-from-life-planner-to-momentum",
+      "title": "Update the logo text in the Layout component header from 'Life Planner' to 'MOMENTUM'",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-hero-section-heading-in-the-landing-page-from-life-planner-to-momentum",
+      "title": "Update the hero section heading in the Landing page from 'Life Planner' to 'MOMENTUM'",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Study planning and management system",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Work planning and management system",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Habit tracking and improvement system",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Goal setting and management system",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Create a backend data model to store user studies with fields for subject name, description, study schedule, and progress tracking",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Create a backend data model to store user work items with fields for project name, description, deadlines, and completion status",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Create a backend data model to store user habits with fields for habit name, description, frequency target, and tracking history",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Create a backend data model to store user goals with fields for goal title, description, target date, milestones, and completion status",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Life Planner",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

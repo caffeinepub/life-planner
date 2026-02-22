@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Warm coral primary */
+        --background: 0.99 0.01 30;
+        --foreground: 0.20 0.02 30;
+        
+        --card: 1 0 0;
+        --card-foreground: 0.20 0.02 30;
+        
+        --popover: 1 0 0;
+        --popover-foreground: 0.20 0.02 30;
+        
+        /* Vibrant coral */
+        --primary: 0.65 0.20 25;
+        --primary-foreground: 0.99 0.01 30;
+        
+        /* Soft peach */
+        --secondary: 0.95 0.05 40;
+        --secondary-foreground: 0.30 0.02 30;
+        
+        --muted: 0.96 0.02 30;
+        --muted-foreground: 0.55 0.02 30;
+        
+        /* Warm amber accent */
+        --accent: 0.92 0.08 60;
+        --accent-foreground: 0.30 0.02 30;
+        
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.99 0.01 30;
+        
+        --border: 0.90 0.02 30;
+        --input: 0.90 0.02 30;
+        --ring: 0.65 0.20 25;
+        
+        /* Custom colors */
+        --coral: 0.65 0.20 25;
+        --amber: 0.75 0.15 60;
+        --teal: 0.70 0.12 180;
+    }
+
+    .dark {
+        --background: 0.15 0.02 30;
+        --foreground: 0.95 0.01 30;
+        
+        --card: 0.20 0.02 30;
+        --card-foreground: 0.95 0.01 30;
+        
+        --popover: 0.18 0.02 30;
+        --popover-foreground: 0.95 0.01 30;
+        
+        --primary: 0.70 0.18 25;
+        --primary-foreground: 0.15 0.02 30;
+        
+        --secondary: 0.25 0.03 30;
+        --secondary-foreground: 0.95 0.01 30;
+        
+        --muted: 0.25 0.02 30;
+        --muted-foreground: 0.65 0.02 30;
+        
+        --accent: 0.30 0.03 30;
+        --accent-foreground: 0.95 0.01 30;
+        
+        --destructive: 0.60 0.20 25;
+        --destructive-foreground: 0.95 0.01 30;
+        
+        --border: 0.30 0.02 30;
+        --input: 0.30 0.02 30;
+        --ring: 0.70 0.18 25;
+        
+        --coral: 0.70 0.18 25;
+        --amber: 0.78 0.14 60;
+        --teal: 0.72 0.11 180;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
+
+@layer utilities {
+    .text-coral {
+        color: oklch(var(--coral));
+    }
+    
+    .text-amber {
+        color: oklch(var(--amber));
+    }
+    
+    .text-teal {
+        color: oklch(var(--teal));
+    }
+    
+    .bg-coral {
+        background-color: oklch(var(--coral));
+    }
+    
+    .bg-amber {
+        background-color: oklch(var(--amber));
+    }
+    
+    .bg-teal {
+        background-color: oklch(var(--teal));
+    }
+}

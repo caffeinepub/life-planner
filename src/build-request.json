@@ -1,0 +1,69 @@
+{
+  "kind": "build_request",
+  "title": "Change website name to MOMENTUM",
+  "projectName": "MOMENTUM",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Update the website title in frontend/index.html from 'Life Planner' to 'MOMENTUM'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "change the website name to MOMENTUM"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The HTML title tag displays 'MOMENTUM'",
+        "The browser tab shows 'MOMENTUM' as the page title"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Update the logo text in the Layout component header from 'Life Planner' to 'MOMENTUM'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "change the website name to MOMENTUM"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The header displays 'MOMENTUM' as the site logo/name",
+        "The logo text is visible on all authenticated pages"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Update the hero section heading in the Landing page from 'Life Planner' to 'MOMENTUM'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "change the website name to MOMENTUM"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The landing page hero section displays 'MOMENTUM' as the main heading",
+        "The branding is consistent with the new name throughout the landing page"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Changing the underlying functionality or features",
+    "Modifying the backend data models",
+    "Updating the visual theme or color scheme"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
