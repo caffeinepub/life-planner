@@ -1,11 +1,9 @@
 # Specification
 
 ## Summary
-**Goal:** Rebrand the application from "Life Planner" to "MOMENTUM".
+**Goal:** Add creator credit to the application footer.
 
 **Planned changes:**
-- Update the website title in the HTML document to "MOMENTUM"
-- Change the logo text in the header navigation to "MOMENTUM"
-- Update the landing page hero section heading to "MOMENTUM"
+- Add "Made by Akshita Tiwari" text to the footer in the Layout component
 
-**User-visible outcome:** Users will see "MOMENTUM" as the application name throughout the site, including in the browser tab, header logo, and landing page.
+**User-visible outcome:** Users will see "Made by Akshita Tiwari" displayed in the footer on all pages of the application.

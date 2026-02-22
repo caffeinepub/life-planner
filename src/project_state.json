@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "A website for young people to plan, manage, and improve their studies, work, habits, and goals in one simple place",
   "architectural_notes": [
     "Target audience: young people",
@@ -98,6 +98,14 @@
         "REQ-15"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-add-made-by-akshita-tiwari-credit-text-in-the-layout-component-footer-section",
+      "title": "Add 'Made by Akshita Tiwari' credit text in the Layout component footer section",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -155,6 +163,12 @@
       "reqIds": [
         "REQ-4"
       ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add 'Made by Akshita Tiwari' credit in the website footer",
+      "reqIds": [],
       "status": "pending"
     }
   ],

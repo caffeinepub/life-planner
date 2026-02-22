@@ -62,8 +62,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <footer className="border-t border-border/40 bg-muted/30">
         <div className="container py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 text-sm text-muted-foreground">
               <span>© {new Date().getFullYear()} MOMENTUM</span>
+              <span className="hidden md:inline">•</span>
+              <span>Made by Akshita Tiwari</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <span>Built with</span>

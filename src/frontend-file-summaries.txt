@@ -1,6 +1,6 @@
 {
   "frontend/src/App.tsx": "Main application component with TanStack Router setup, authentication state management, and profile setup modal integration.",
-  "frontend/src/components/Layout.tsx": "Layout wrapper component providing consistent header with \"MOMENTUM\" branding, navigation, login button, and footer with attribution across all pages",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component providing consistent header with \"MOMENTUM\" branding, navigation, login button, and footer with creator credit \"Made by Akshita Tiwari\" and caffeine.ai attribution across all pages",
   "frontend/src/components/LoginButton.tsx": "Login/logout button component using Internet Identity with loading states and query cache clearing on logout.",
   "frontend/src/components/ProfileSetup.tsx": "Modal dialog for first-time user profile setup, prompting for name after authentication.",
   "frontend/src/pages/Landing.tsx": "Landing page for unauthenticated users with hero section, feature cards, and call-to-action buttons with \"MOMENTUM\" branding in alt text",

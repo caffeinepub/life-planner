@@ -1,66 +1,32 @@
 {
   "kind": "build_request",
-  "title": "Change website name to MOMENTUM",
-  "projectName": "MOMENTUM",
+  "title": "Add creator credit to footer",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-13",
-      "text": "Update the website title in frontend/index.html from 'Life Planner' to 'MOMENTUM'",
+      "id": "REQ-16",
+      "text": "Add 'Made by Akshita Tiwari' credit text in the Layout component footer section",
       "target": "frontend",
       "source": {
         "messageIds": [
           "msg-6"
         ],
         "quotes": [
-          "change the website name to MOMENTUM"
+          "And in the footer, made by akshita tiwari"
         ]
       },
       "acceptanceCriteria": [
-        "The HTML title tag displays 'MOMENTUM'",
-        "The browser tab shows 'MOMENTUM' as the page title"
-      ]
-    },
-    {
-      "id": "REQ-14",
-      "text": "Update the logo text in the Layout component header from 'Life Planner' to 'MOMENTUM'",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-6"
-        ],
-        "quotes": [
-          "change the website name to MOMENTUM"
-        ]
-      },
-      "acceptanceCriteria": [
-        "The header displays 'MOMENTUM' as the site logo/name",
-        "The logo text is visible on all authenticated pages"
-      ]
-    },
-    {
-      "id": "REQ-15",
-      "text": "Update the hero section heading in the Landing page from 'Life Planner' to 'MOMENTUM'",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-6"
-        ],
-        "quotes": [
-          "change the website name to MOMENTUM"
-        ]
-      },
-      "acceptanceCriteria": [
-        "The landing page hero section displays 'MOMENTUM' as the main heading",
-        "The branding is consistent with the new name throughout the landing page"
+        "The footer in frontend/src/components/Layout.tsx displays 'Made by Akshita Tiwari' text",
+        "The credit text is styled consistently with the existing footer design",
+        "The credit appears on all pages that use the Layout component"
       ]
     }
   ],
   "constraints": [],
   "nonGoals": [
-    "Changing the underlying functionality or features",
-    "Modifying the backend data models",
-    "Updating the visual theme or color scheme"
+    "Changing the existing caffeine.ai attribution in the footer",
+    "Modifying footer layout or styling beyond adding the credit text",
+    "Adding links or additional information to the credit"
   ],
   "imageRequirements": {
     "required": [],

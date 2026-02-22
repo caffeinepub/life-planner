@@ -1,50 +1,21 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Change website name to MOMENTUM",
+  "title": "Add creator credit to footer",
   "requirements": [
     {
-      "id": "REQ-13",
-      "summary": "Update the website title in frontend/index.html from 'Life Planner' to 'MOMENTUM'",
+      "id": "REQ-16",
+      "summary": "Add 'Made by Akshita Tiwari' credit text in the Layout component footer section",
       "acceptanceCriteria": [
-        "The HTML title tag displays 'MOMENTUM'",
-        "The browser tab shows 'MOMENTUM' as the page title"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/index.html",
-          "operation": "modify",
-          "description": "Change the <title> tag content from 'Life Planner' to 'MOMENTUM'"
-        }
-      ]
-    },
-    {
-      "id": "REQ-14",
-      "summary": "Update the logo text in the Layout component header from 'Life Planner' to 'MOMENTUM'",
-      "acceptanceCriteria": [
-        "The header displays 'MOMENTUM' as the site logo/name",
-        "The logo text is visible on all authenticated pages"
+        "The footer in frontend/src/components/Layout.tsx displays 'Made by Akshita Tiwari' text",
+        "The credit text is styled consistently with the existing footer design",
+        "The credit appears on all pages that use the Layout component"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/Layout.tsx",
           "operation": "modify",
-          "description": "Update the header logo text from 'Life Planner' to 'MOMENTUM'"
-        }
-      ]
-    },
-    {
-      "id": "REQ-15",
-      "summary": "Update the hero section heading in the Landing page from 'Life Planner' to 'MOMENTUM'",
-      "acceptanceCriteria": [
-        "The landing page hero section displays 'MOMENTUM' as the main heading",
-        "The branding is consistent with the new name throughout the landing page"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/pages/Landing.tsx",
-          "operation": "modify",
-          "description": "Replace 'Life Planner' with 'MOMENTUM' in the hero section heading and any other references to the application name on the landing page"
+          "description": "Add 'Made by Akshita Tiwari' credit text to the footer section while preserving the existing caffeine.ai attribution. Style the credit text consistently with the existing footer design using similar text color and spacing. Ensure the credit appears on all pages that use the Layout component."
         }
       ]
     }
